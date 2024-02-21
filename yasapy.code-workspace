@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"[python]": {
+			"diffEditor.ignoreTrimWhitespace": false,
+			"gitlens.codeLens.symbolScopes": [
+				"!Module"
+			],
+			"editor.formatOnType": true,
+			"editor.wordBasedSuggestions": "off",
+			"editor.formatOnSave": true,
+			"editor.defaultFormatter": "ms-python.flake8",
+		},
+		"flake8.args": [
+			"--ignore=E501"
+		]
+	}
+}
